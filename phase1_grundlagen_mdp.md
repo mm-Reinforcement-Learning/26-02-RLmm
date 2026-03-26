@@ -23,9 +23,9 @@ Reinforcement Learning ist das dritte Paradigma des maschinellen Lernens neben S
 ```
 Das RL-Grundprinzip:
 
-  Agent ──(Aktion a_t)──▶ Umgebung
-    ◀──(Zustand s_{t+1})──
-    ◀──(Reward r_{t+1}) ──
+  Agent ──(Aktion a{t})──▶ Umgebung
+    ◀──(Zustand s{t+1})──
+    ◀──(Reward r{t+1}) ──
 ```
 
 <!-- ILLUSTRATION: RL-Kreislauf -->
