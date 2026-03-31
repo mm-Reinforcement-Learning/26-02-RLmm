@@ -378,17 +378,17 @@ Q(s,a) ← Q(s,a) + α · [R + γ·Q(s',a') - Q(s,a)]
 ```
 SARSA - Lernschleife:
 
-  ┌─────────────────────────────────────────┐
-  │                                         │
-  ▼                                         │
-Zustand S ──π(s)──► Aktion A               │
-    │                   │                  │
-    │              Umgebung                │
-    │                   │                  │
-    ▼                   ▼                  │
-Zustand S' ◄──── Reward R                 │
-    │                                      │
-    └──π(s')──► Aktion A' ────────────────►┘
+    ┌───────────────────────────────────────┐
+    │                                       │
+    ▼                                       │
+Zustand S ──π(s)──► Aktion A                │
+    │                   │                   │
+    │              Umgebung                 │
+    │                   │                   │
+    ▼                   ▼                   │
+Zustand S' ◄──── Reward R                   │
+    │                                       │
+    └──π(s')──► Aktion A' ─────────────────►┘
                     │
                     └─► UPDATE Q(S,A) mit (S,A,R,S',A')
 ```
